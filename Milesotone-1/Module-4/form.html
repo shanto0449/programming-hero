@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Ghor</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form below</h2>
+            <form action="">
+                <label for="name">Name:
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                </label>
+                
+                <label for="email">Email:
+                    <input type="email" id="email" name="email" placeholder="Your email">
+                </label>
+                
+                <label for="phone">Phone:
+                    <input type="text" id="phone" name="phone" placeholder="Your Phone Number">
+                </label>
+                
+                <fieldset>
+                    <legend>Pick One Pitha</legend>
+                    <label for="chitoi">
+                        <input type="radio" id="chitoi" name="pitha" value="chitoi">Chitoi
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" id="vapa" name="pitha" value="vapa">Vapa
+                    </label>
+                     <label for="pri">
+                        <input type="radio" id="puri" name="pitha" value="vapa">Puri
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick one or  more vorta</legend>
+                    <label for="sorisa">
+                        <input type="checkbox" id="vorta" name="vorta">Sorisan vorta
+                    </label>
+                    <label for="morij">
+                        <input type="checkbox" id="morij" name="vorta">Morij vorta
+                    </label>
+                    <label for="sukti">
+                        <input type="checkbox" id="sukti" name="vorta">Sukti vorta
+                    </label>
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
